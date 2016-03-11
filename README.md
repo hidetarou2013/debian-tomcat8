@@ -29,8 +29,14 @@ $ docker build -t hidetarou2013/debian-tomcat8:deploy_jaxrs-sample .
 $ docker run --name debian-tomcat8 -d -p 8080:8080 hidetarou2013/debian-tomcat8:1.0
 ```
 
+## 3.2 sample2
 
-## 3.2 sample2 : with mysql-server
+```sh
+docker run --name debian-tomcat8 -it --rm -p 8080:8080 hidetarou2013/debian-tomcat8:JDBC
+```
+
+
+## 3.3 sample3 : with mysql-server
 
 ■前提条件：
 MySQLで workbook スキーマを利用することを前提
