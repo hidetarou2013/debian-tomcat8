@@ -24,5 +24,5 @@ ADD "$PWD"/conf/server.xml_workbook $CATALINA_HOME/conf/server.xml
 ADD "$PWD"/conf/context.xml_workbook $CATALINA_HOME/conf/context.xml
 
 # tag:deploy_jaxrs-sample
-#ADD "$PWD"/webapps/*.war $CATALINA_HOME/webapps/
+ADD "$PWD"/webapps/*.war $CATALINA_HOME/webapps/
 
