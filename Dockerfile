@@ -12,7 +12,7 @@ ENV PATH=$PATH:$CATALINA_HOME/bin
 RUN export CATALINA_HOME PATH
 
 # tag:JDBC
-#ADD "$PWD"/lib/*.jar $CATALINA_HOME/lib/
+ADD "$PWD"/lib/*.jar $CATALINA_HOME/lib/
 
 # tag:MySQL
 #ADD "$PWD"/bin/catalina.sh_mysql $CATALINA_HOME/bin/catalina.sh
