@@ -26,3 +26,5 @@ ADD "$PWD"/conf/context.xml_workbook $CATALINA_HOME/conf/context.xml
 # tag:deploy_jaxrs-sample
 #ADD "$PWD"/webapps/*.war $CATALINA_HOME/webapps/
 
+# tag:bugfix
+RUN chmod 755 /usr/local/tomcat/bin/catalina.sh
